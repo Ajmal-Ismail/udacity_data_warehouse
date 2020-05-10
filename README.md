@@ -8,6 +8,9 @@ As their data engineer, you are tasked with building an ETL pipeline that extrac
 In this project, you'll apply what you've learned on data warehouses and AWS to build an ETL pipeline for a database hosted on Redshift. To complete the project, you will need to load data from S3 to staging tables on Redshift and execute SQL statements that create the analytics tables from these staging tables.
 
 ## Schema
+
+![schema](schema.png)
+
 ### Stagging Tables
 **tbl_events_staging** - Stage table to load data from logs files.
 - artist TEXT,
